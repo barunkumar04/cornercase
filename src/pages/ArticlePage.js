@@ -25,5 +25,4 @@ const ArticlePage = ( { match } ) => {
          </ React.Fragment>
      );
 }
-
 export default ArticlePage;
