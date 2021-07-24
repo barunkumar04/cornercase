@@ -1,12 +1,12 @@
 import React from 'react';
 import articleContent from './article-content';
-import ArticleList from '../components/ArticleList';
+import ArticlesList from '../components/ArticlesList';
 
 const ArticleListPage = () => (
 
     <React.Fragment>
          <h1>Articles</h1>
-         <ArticleList articles = {articleContent} />
+         <ArticlesList articles = {articleContent} />
     </ React.Fragment>
 );
 
